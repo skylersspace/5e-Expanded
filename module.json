@@ -1,0 +1,151 @@
+{
+  "id": "5e-expanded",
+  "title": "5e Expanded",
+  "version": "0.0.2",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "url": "https://github.com/skylersspace/FoundryVTT",
+  "manifest": "https://github.com/skylersspace/FoundryVTT/releases/download/5e-expanded-0.0.2/module.json",
+  "download": "https://github.com/skylersspace/FoundryVTT/releases/download/5e-expanded-0.0.2/module.zip",
+
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  
+  "description": "All of the files needed for the expanded 5e system.",
+  
+  "authors": [
+    {
+      "name": "skylersspace",
+      "url": "skylersspace.com",
+      "discord": "skylersspace"
+    }
+  ],
+  
+  "packs": [
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "boons",
+      "label": "Boons",
+      "path": "packs/boons",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "monster-features",
+      "label": "Monster Features",
+      "path": "packs/monster-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "monsters",
+      "label": "Monsters",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "races",
+      "label": "Races",
+      "path": "packs/races",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders":[
+    {
+      "name": "5e Expanded",
+      "sorting": "a",
+      "packs":[
+        "backgrounds",
+        "boons",
+        "classes",
+        "feats",
+        "items",
+        "monster-features",
+        "monsters",
+        "races",
+        "spells"
+      ]
+    }
+  ]
+}
